@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+        body {
+            background-color: #0000ff;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background-color: #00004d;
+            padding-right: 15px;
+            padding-left: 15px;
+            line-height: 350%;
+        }
+        .navbar a{
+            text-decoration: none;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        #name a{
+            font-size: 40px;
+            font-weight: 700;
+            color: white;
+        }
+        #name a span{
+             font-size: 70px;
+             color: #0000ff;
+        }
+        #name a span .dee{
+            color: #0000ff;
+        }
+        li {
+            list-style: none;
+            display: inline-block;
+        }
+        li a{
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            margin-right: 25px;
+        }
+        button {
+            background-color: #0000ff;
+            margin-left: 10px;
+            border-radius: 10px;
+            padding: 10px;
+            width: 80px;
+        }
+        button a{
+             color: white;
+             font-weight: bold;
+             font-size: 15px;
+        }
+
+        .intro-box {
+            background-color: #00004d;
+            padding: 40px;
+            margin: 40px;
+            height: 50vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .box {
+            color: white;
+            font-size: 20px;
+            line-height: 1.5;
+        }
+       .box h1 {
+            font-weight: bold;
+            font-size: 50px;
+        }
+        .box h1 .double-u {
+            color: #0000ff;
+        }
+        .box h1 .em {
+            color: #0000ff;
+        }
+        .box h1 .jay {
+            color: #0000ff;
+        }
+       .box .enter-button {
+            color: #0000ff;
+            font-size: 20px;
+            width: 80px;
+            padding: 10px;
+            margin: 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div id="name"><a href="#"><span>E</span>ru<span class="dee">d</span>ite</a></div>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <button><a href="#">SignIn</a></button>
+                <button><a href="#">SignUp</a></button>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="intro-box">
+        <div class="box">
+            <h1><center><span class="double-u">W</span>elcome to <span class="em">M</span>y <span class="jay">J</span>ourney !</center></h1>
+            <p class="intro"><center>I'm Erudite, an aspiring Website Developer. <br>This site is a reflection of my learning path - <br>where code becomes creativity.</center></p>
+            <a href="home.html" class="enter-button"><center>Enter Site</center></a>
+        </div>
+    </div>
+</body>
+</html>
