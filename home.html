@@ -4,14 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
+    <link rel="stylesheet" href="home.css">
+    <style>
+        .navbar {
+            background-color: #00004d;
+            padding-right: 15px;
+            padding-left: 15px;
+            line-height: 350%;
+        }
+        .navbar a{
+            text-decoration: none;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        #name a{
+            font-size: 40px;
+            font-weight: 700;
+            color: white;
+        }
+        #name a span{
+             font-size: 70px;
+             color: #0000ff;
+        }
+        #name a span .dee{
+            color: #0000ff;
+        }
+        li {
+            list-style: none;
+            display: inline-block;
+        }
+        li a{
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            margin-right: 25px;
+        }
+        button {
+            background-color: #0000ff;
+            margin-left: 10px;
+            border-radius: 10px;
+            padding: 10px;
+            width: 80px;
+        }
+        button a{
+             color: white;
+             font-weight: bold;
+             font-size: 15px;
+        }
+
+
+    </style>
 </head>
 <body>
-    <h1><center>Hello, I'm Owonikoko Hawah' (Erudite) - Web Developer in the Making !</center></h1>
-    <p><center>Welcome to my portfolio website! I'm currently on an exciting journey of learning website development, and this space is where I share everything I create and discover along the way.</center></p>
+    <nav class="navbar">
+        <div class="container">
+            <div id="name"><a href="#"><span>E</span>ru<span class="dee">d</span>ite</a></div>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <button><a href="#">SignIn</a></button>
+                <button><a href="#">SignUp</a></button>
+            </ul>
+        </div>
+    </nav>
+    <h1 style="font-size: 60px; color: white;"><center>Hello, I'm Owonikoko Hawah' (Erudite) - Web Developer in the Making !</center></h1>
     <br>
-    <p><center>With every new concept I learn - from HTML tags to advanced JavaScript - I aim to not only grow my own skills but also help others who are just starting out. If you're passionate about building beautiful, functional websites or you're curious about how websites work, you're in the right place!</center></p>
+    <h2 style="font-size: 20px; color: white;" ><center>Welcome to my portfolio website! I'm currently on an exciting journey of learning website development, and this space is where I share everything I create and discover along the way.</center></h2>
     <br>
-    <p><center>This site is more than just a portfolio - it's a learning log, a digital playground, and a source of inspiration for fellow learners. Feel free to explore my story, check out what I've learned so far, and even drop me a message. Let's grow together!</center></p>
+    <h2 style="font-size: 20px; color: white;"><center>With every new concept I learn - from HTML tags to advanced JavaScript - I aim to not only grow my own skills but also help others who are just starting out. If you're passionate about building beautiful, functional websites or you're curious about how websites work, you're in the right place!</center></h2>
+    <br>
+    <h2 style="font-size: 20px; color: white;"><center>This site is more than just a portfolio - it's a learning log, a digital playground, and a source of inspiration for fellow learners. Feel free to explore my story, check out what I've learned so far, and even drop me a message. Let's grow together!</center></h2>
     
 </body> 
 </html>

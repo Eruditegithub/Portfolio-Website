@@ -4,13 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
+    <link rel="stylesheet" href="about.css">
 </head>
+<style>
+    .navbar {
+            background-color: #00004d;
+            padding-right: 15px;
+            padding-left: 15px;
+            line-height: 350%;
+        }
+        .navbar a{
+            text-decoration: none;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        #name a{
+            font-size: 40px;
+            font-weight: 700;
+            color: white;
+        }
+        #name a span{
+             font-size: 70px;
+             color: #0000ff;
+        }
+        #name a span .dee{
+            color: #0000ff;
+        }
+        li {
+            list-style: none;
+            display: inline-block;
+        }
+        li a{
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            margin-right: 25px;
+        }
+        button {
+            background-color: #0000ff;
+            margin-left: 10px;
+            border-radius: 10px;
+            padding: 10px;
+            width: 80px;
+        }
+        button a{
+             color: white;
+             font-weight: bold;
+             font-size: 15px;
+        }
+</style>
 <body>
-    <h1>About Me</h1>
-    <p>I'm a Web Development Enthusiast who loves turning ideas into interactive, user-friendly websites. I'm currently taking a Web development course where I'm learning the core building blocks of the web - HTML, CSS, JavaScript, and more.</p>
+    <nav class="navbar">
+        <div class="container">
+            <div id="name"><a href="#"><span>E</span>ru<span class="dee">d</span>ite</a></div>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <button><a href="#">SignIn</a></button>
+                <button><a href="#">SignUp</a></button>
+            </ul>
+        </div>
+    </nav>
+    <h1 style="font-size: 60px; color: white;"><center>About Me</center></h1>
     <br>
-    <p>I didn't start with a tech background, but my curiousity and drive to learn have led me here. I've been exploring the magic behind websites, one tag, one style, and one function at a time. With every project, I'm gaining not just technical skills but also confidence in my ability to solve problems and bring creative visions to life.</p>
+    <h2 style="font-size: 20px; color: white;"><center>I'm a Web Development Enthusiast who loves turning ideas into interactive, user-friendly websites. I'm currently taking a Web development course where I'm learning the core building blocks of the web - HTML, CSS, JavaScript, and more.</center></h2>
     <br>
-    <p>Outside of coding, I enjoy reading about tech trends, watching tutorials, and collaborating with fellow learners. My goal is to become a Professional Full stack developer who creates experiences that are not only functional but also delightful.</p>
+    <h2 style="font-size: 20px; color: white;"><center>I didn't start with a tech background, but my curiousity and drive to learn have led me here. I've been exploring the magic behind websites, one tag, one style, and one function at a time. With every project, I'm gaining not just technical skills but also confidence in my ability to solve problems and bring creative visions to life.</center></h2>
+    <br>
+    <h2 style="font-size: 20px; color: white;"><center>Outside of coding, I enjoy reading about tech trends, watching tutorials, and collaborating with fellow learners. My goal is to become a Professional Full stack developer who creates experiences that are not only functional but also delightful.</center></h2>
 </body>
 </html>

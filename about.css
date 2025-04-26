@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url('images/bubble-image.png');
+    background-size: cover;
+    background-position: inherit;
+    background-repeat: no-repeat;
+}

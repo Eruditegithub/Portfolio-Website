@@ -4,30 +4,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
+    <link rel="stylesheet" href="contact.css">
+    <style>
+        .navbar {
+            background-color: #00004d;
+            padding-right: 15px;
+            padding-left: 15px;
+            line-height: 350%;
+        }
+        .navbar a{
+            text-decoration: none;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        #name a{
+            font-size: 40px;
+            font-weight: 700;
+            color: white;
+        }
+        #name a span{
+             font-size: 70px;
+             color: #0000ff;
+        }
+        #name a span .dee{
+            color: #0000ff;
+        }
+        li {
+            list-style: none;
+            display: inline-block;
+        }
+        li a{
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            margin-right: 25px;
+        }
+        button {
+            background-color: #0000ff;
+            margin-left: 10px;
+            border-radius: 10px;
+            padding: 10px;
+            width: 80px;
+        }
+        button a{
+             color: white;
+             font-weight: bold;
+             font-size: 15px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Get In Touch</h1>
-    <p>I'd love to hear from you! Whether you're a fellow learner, a developer, or someone curious about my journey, don't hesitate to reach out. Collaboration, feedback, or just a simple Hello - it all means a lot.</p>
+    <nav class="navbar">
+        <div class="container">
+            <div id="name"><a href="#"><span>E</span>ru<span class="dee">d</span>ite</a></div>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <button><a href="#">SignIn</a></button>
+                <button><a href="#">SignUp</a></button>
+            </ul>
+        </div>
+    </nav>
+    <h1 style="font-size: 60px; color: white;"><center>Get In Touch</center></h1>
+    <h2 style="font-size: 20px; color: white;">I'd love to hear from you! Whether you're a fellow learner, a developer, or someone curious about my journey, don't hesitate to reach out. Collaboration, feedback, or just a simple Hello - it all means a lot.</h2>
     <br>
-    <p>Feel free to fill out the form below or connect with me through my social media links. Let's learnm, share, and build amazing things together!</p>
+    <h2 style="font-size: 20px; color: white;">Feel free to fill out the form below or connect with me through my social media links. Let's learn, share, and build amazing things together!</h2>
     <br>
     <form action="">
-        <label for="name">Name</label>
+        <label for="name" style="font-size: 15px; font-weight: bold; color: white;">Name</label>
         <br>
-        <input type="text" id="name" name="name" placeholder="Type your name">
-        <br>
-        <br>
-        <label for="email">Email</label>
-        <br>
-        <input type="email" id="email" name="email" placeholder="Type your email" required>
+        <input type="text" id="name" name="name" placeholder="Type your name" style="font-size: 15px; font-weight: bold; color: white;">
         <br>
         <br>
-        <label for="message">Message</label>
+        <label for="email" style="font-size: 15px; font-weight: bold; color: white;">Email</label>
+        <br>
+        <input type="email" id="email" name="email" placeholder="Type your email" required style="font-size: 15px; font-weight: bold; color: white;">
+        <br>
+        <br>
+        <label for="name" style="font-size: 15px; font-weight: bold; color: white;">Phone Number</label>
+        <br>
+        <input type="number" id="number" name="number" placeholder="Input your contact" style="font-size: 15px; font-weight: bold; color: white;">
+        <br>
+        <br>
+        <label for="message" style="font-size: 15px; font-weight: bold; color: white;">Message</label>
         <br>
         <textarea name="message" id="message" rows="5" cols="35" placeholder="Type your comment"></textarea>
         <br>
         <br>
-        <button type="submit">Submit</button>
+        <label for="submit" style="font-size: 15px; font-weight: bold;"></label>
+        <input type="submit" style="border-radius: 30px;">
     </form>
 </body>
 </html>
